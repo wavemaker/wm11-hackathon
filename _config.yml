@@ -1,1 +1,5 @@
+theme: just-the-docs
 remote_theme: sboyina/just-the-docs
+
+title: WaveMaker
+logo: "/assets/wm_logo.png"
