@@ -55,4 +55,4 @@ Bug Buster
 Best Presentation
 
 ## How to participate
-Fill in the deatils of your team and idea in this <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvwdiFYHHotk81-YDj8miq--pV4Fo3GFdQgv9O0sVg31V1UA/viewform" target="_blank">registration form</a> before **18th February 2022**.>
+Fill in the deatils of your team and idea in this <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvwdiFYHHotk81-YDj8miq--pV4Fo3GFdQgv9O0sVg31V1UA/viewform" target="_blank">registration form</a> before **18th February 2022**.
