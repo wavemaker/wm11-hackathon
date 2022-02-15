@@ -4,7 +4,7 @@ layout: default
 nav_order: 1
 ---
 
-![](/assets/home_image.png)
+![](./assets/home_image.png)
 # Starts on 21st February, 2022
 
 Low-code needs no introduction anymore, it’s out there, helping small, midsize, and large businesses turn their ideas into digital products with speed and scale. The next round of success belongs to the low-code play that allows developers to leverage composability and the ability to ship out products that can compete in the game of brilliant user experiences; accessible from anywhere. 
