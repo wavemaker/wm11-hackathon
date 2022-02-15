@@ -50,9 +50,9 @@ Each team will get a maximum of 15 minutes for their presentation.
 False, plagiarized, and/ or deceptive entries or acts shall render the entrants disqualified.
 
 5. **Awards:**
-The Most Innovative App
-Bug Buster
-Best Presentation
+- The Most Innovative App
+- Bug Buster
+- Best Presentation
 
 ## How to participate
 Fill in the deatils of your team and idea in this <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvwdiFYHHotk81-YDj8miq--pV4Fo3GFdQgv9O0sVg31V1UA/viewform" target="_blank">registration form</a> before **18th February 2022**.
