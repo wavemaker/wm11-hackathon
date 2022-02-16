@@ -13,6 +13,7 @@ Mobile app developers can preview their apps using Preview button. To see the co
 2. Install wm-reactnative-cli in your machine using below command
  ```npm install -g https://github.com/wavemaker/wm-reactnative-cli```
 3. Install Expo Go app on your mobile phone from [Playstore](https://play.google.com/store/apps/details?id=host.exp.exponent) or [App Store](https://apps.apple.com/us/app/expo-go/id982107779)
+4. Install React Dev Tools `npm i -g react-devtools@4.14.0`.
 
 **Debugging Procedure:**
 
@@ -207,12 +208,16 @@ class ZipFile {
    ```wm-reactnative run expo ${APP_PREVIEW_URL}```
 6. Once command gets executed successfully, open [http://localhost:19002/](http://localhost:19002/) in your chrome browser
 7. If  you have Android, open the Expo Go app and scan the QR code that appears at the left bottom of [http://localhost:19002/](http://localhost:19002/)  
-   //add a sample image here??
-8. If you have iOS, open the safari browser and type the exp url that appears on top of the QR code. Expo Go will open automatically.
-     //add a sample image here??
-9. When you shake the phone, the expo developer menu opens up and you can explore those debugging options.
-10. In the developer menu, click on `Debug Remote JS` option to debug the JavaScript of the app.
-11. To check React Native component tree, install `npm install -g react-devtools@^4` and then execute `react-devtools` in terminal. Then reload the app in mobile from the developer menu.
+![expo portal](../../assets/expo-portal-qr-code.png)
+8. If you have iOS, open the safari browser in your iPhone and type the exp url that appears on top of the QR code. Expo Go will open automatically.
+![expo portal ios url](../../assets/expo-portal-ios-link.png)
+9. When you shake the phone, the expo developer menu opens up. In the developer menu, click on `Debug Remote JS` option to debug the JavaScript of the app.
+<img src="../../assets/expo-developer-menu.png" style="height:480px"></img>
+10. Open [http://localhost:19000/debugger-ui/](http://localhost:19000/debugger-ui/) in your system. If there are many tabs with the same url, close all except any one.
+![React Debug Portal](../../assets/react-debug-portal.png)
+
+11. To view React Native component tree, execute `react-devtools` in terminal. Then reload the app in mobile from the developer menu.
+![React Dev Tools](../../assets/react-dev-tools.png)
 
 ## Additional Resources
 1. [https://docs.expo.dev/workflow/debugging/](https://docs.expo.dev/workflow/debugging/)
