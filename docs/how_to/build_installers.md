@@ -5,7 +5,7 @@ parent: How To
 nav_exclude: true
 ---
 
-# {{ AppChef }}
+# Build React Native app installers using AppChef
 
 AppChef builds app installers including APK and IPA from a ReactNative zip or Cordova zip of the application that can be exported from the WaveMaker Studio. Thus, generated APK or IPA, can be used for testing or can be uploaded to the Play Store and App Store for distribution. 
 
@@ -20,7 +20,7 @@ https://www.wavemakeronline.com/AppChef
 
 To login, click **Login with WaveMaker**
 
-![mobile-build-appchef-login-screen](/learn/assets/mobile-build-appchef-login-screen.png)
+![mobile-build-appchef-login-screen](/assets/mobile-build-appchef-login-screen.png)
 
 After successful login, to enable building a react native app, execute the following url in the address bar
 
@@ -28,7 +28,7 @@ https://www.wavemakeronline.com/AppChef/#/Main?enableReactNative=true
 
 A option with **Create React Native build** will be shown beside Create New Build.
 
-#Screenshot
+![mobile-build-appchef-native-build-option](/assets/mobile-build-appchef-native-build-option.png)
 
 ## Steps to build using AppChef
 
@@ -41,7 +41,7 @@ Build through AppChef is a three-step process, as described below.
 
 Click on create React Native build option, drag and drop or browse your files to upload cordova zip.
 
-![mobile-build-appchef-upload-cordova-zip](/learn/assets/mobile-build-appchef-upload-cordova-zip.png)
+![mobile-build-appchef-upload-native-zip](/assets/mobile-build-appchef-upload-native-zip.png)
 
 ### Configure AppInfo
 
@@ -49,7 +49,7 @@ Click on create React Native build option, drag and drop or browse your files to
 
 2. Click Next to configure the Build options.
 
-![mobile-build-appchef-appInfo](/learn/assets/mobile-build-appchef-appInfo.png)
+![mobile-build-appchef-appInfo](/assets/mobile-build-appchef-appInfo.png)
 
 ### Configure Build
 
