@@ -12,6 +12,3 @@ nav_order: 3
 ## Styles
 1. [How to create theme for WaveMaker react native apps?](./how_to/create_theme.html)
 1. [How to style app using app.css and page styles?](./how_to/styles.html)
-
-## Installers
-1. [How to build apk or ipa from WaveMaker react native project?](./how_to/build_installers.html)

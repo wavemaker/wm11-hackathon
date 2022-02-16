@@ -12,12 +12,12 @@ Mobile app developers can preview their apps using Preview button. To see the co
 1. Make sure you have node 12 and npm 7 installed in your machine
 2. Install wm-reactnative-cli in your machine using below command
  ```npm install -g https://github.com/wavemaker/wm-reactnative-cli```
-3. Install Expo Go app on your mobile phone from Playstore or App Store
+3. Install Expo Go app on your mobile phone from [Playstore](https://play.google.com/store/apps/details?id=host.exp.exponent) or [App Store](https://apps.apple.com/us/app/expo-go/id982107779)
 
 **Debugging Procedure:**
 
 1. In your React Native application, create a java service with name as ProjectService
-2. Replace the java service content with below code
+2. Except the package statement at the top, replace the java service content with below code.
 
 ```
 import javax.servlet.http.HttpServletRequest;
@@ -67,7 +67,7 @@ public class ProjectService {
 
     private String[] filesToExclude = {
             "WEB-INF/.*",
-            "resources/.*",
+            //"resources/.*",
             "rn-bundle/.*",
     };
     private String[] filesToInclude = {
@@ -92,9 +92,6 @@ public class ProjectService {
         Pattern patternToInclude = buildPattern(prefix + "/", filesToInclude);
         return (entryPath) -> {
             File entry = new File(entryPath);
-            if (entryPath.contains("prefabs")) {
-                logger.error("entry path " + entryPath);
-            }
             return entry.isDirectory()
                     || entryPath.endsWith("wm_rn_config.json")
                     || ((patternToInclude.matcher(entryPath).matches()
@@ -110,7 +107,6 @@ public class ProjectService {
         boolean all = after == 0;
         File changeFile = null;
         response.setHeader("X-WM-EXPORTED-AT", System.currentTimeMillis() + "");
-        logger.error(after + ":" + afterStr + ":" + System.currentTimeMillis());
         try {
             String path = ProjectService.class.getProtectionDomain().getCodeSource().getLocation().getPath();
             int srcIndex = path.lastIndexOf("/src");
@@ -205,16 +201,18 @@ class ZipFile {
 }
 
 ```
-3. Now preview the application and copy the preview url. Ex: ```https://wm11.wavemakeronline.com/…../{Project_Name}```
-4. Execute the following command in your machine terminal
+3. If your react native application is configured with security then make sure that ProjectService permission is set to Everyone. For more information on how to configure permissions, [see this](https://docs.wavemaker.com/learn/app-development/app-security/access-levels-permissions)
+4. Now preview the application and copy the preview url. Ex: ```https://wm11.wavemakeronline.com/…../{Project_Name}```
+5. Execute the following command in your machine terminal
    ```wm-reactnative run expo ${APP_PREVIEW_URL}```
-5. Once command gets executed successfully, open [http://localhost:19002/](http://localhost:19002/) in your chrome browser
-6. If  you have Android, open the Expo Go app and scan the QR code that appears at the left bottom of [http://localhost:19002/](http://localhost:19002/)  
+6. Once command gets executed successfully, open [http://localhost:19002/](http://localhost:19002/) in your chrome browser
+7. If  you have Android, open the Expo Go app and scan the QR code that appears at the left bottom of [http://localhost:19002/](http://localhost:19002/)  
    //add a sample image here??
-7. If you have iOS, open the safari browser and type the exp url that appears on top of the QR code. Expo Go will open automatically.
+8. If you have iOS, open the safari browser and type the exp url that appears on top of the QR code. Expo Go will open automatically.
      //add a sample image here??
-8. When you shake the phone, the expo developer menu opens up and you can explore those debugging options.
+9. When you shake the phone, the expo developer menu opens up and you can explore those debugging options.
+10. In the developer menu, click on `Debug Remote JS` option to debug the JavaScript of the app.
+11. To check React Native component tree, install `npm install -g react-devtools@^4` and then execute `react-devtools` in terminal. Then reload the app in mobile from the developer menu.
 
-:::note 
-If your react native application is configured with security then make sure that ProjectService permission is set to Everyone. For more information on how to configure permissions, [see this](https://docs.wavemaker.com/learn/app-development/app-security/access-levels-permissions)
-:::
+## Additional Resources
+1. [https://docs.expo.dev/workflow/debugging/](https://docs.expo.dev/workflow/debugging/)
