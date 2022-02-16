@@ -45,7 +45,7 @@ Click on create React Native build option, drag and drop or browse your files to
 
 2. Click Next to configure the Build options.
 
-![mobile-build-appchef-appInfo](/assets/mobile-build-appchef-appInfo.png)
+![mobile-build-appchef-appInfo](../../assets/mobile-build-appchef-appInfo.png)
 
 ### Configure Build
 
