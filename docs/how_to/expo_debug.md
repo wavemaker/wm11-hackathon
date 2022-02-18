@@ -9,7 +9,8 @@ Mobile app developers can preview their apps using Preview button. To see the co
 
 **Pre-requisites:**
 
-1. Make sure you have node 12 and npm 7 installed in your machine
+1. If you are using windows machine, Install [Git Bash](https://gitforwindows.org/) and use it as terminal window. 
+2. Make sure you have node 12 and npm 7 installed in your machine
 2. Install wm-reactnative-cli in your machine using below command
  ```npm install -g https://github.com/wavemaker/wm-reactnative-cli```
 3. Install Expo Go app on your mobile phone from [Playstore](https://play.google.com/store/apps/details?id=host.exp.exponent) or [App Store](https://apps.apple.com/us/app/expo-go/id982107779)

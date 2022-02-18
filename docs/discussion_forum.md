@@ -7,4 +7,4 @@ nav_order: 5
 # {{ page.title }}
 
 Please post all queries related to hackathon in the below channel in Discourse.
-[https://discourse.wavemaker.com](https://discourse.wavemaker.com)
+<a href="https://discourse.wavemaker.com/t/about-the-wm11-hackathon-category/1116" target="_blank">https://discourse.wavemaker.com/t/about-the-wm11-hackathon-category/1116</a>

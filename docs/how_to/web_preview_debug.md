@@ -22,6 +22,6 @@ nav_exclude: true
     - Select components tab in the popup.
     - Click on add filter button.
     - Mention the regular expression. **^(?!Wm)** can be used to view only WaveMaker components.
-    ![Filre view](../../assets/web_preview_debug_wm_filter.png)
+    ![Filter view](../../assets/web_preview_debug_wm_filter.png)
 
 6. In style details, there is a _trace object. _trace object contains sources that participated in the preparation of the final style.  In the trace object, styles of later sources are overridden by the former sources.
