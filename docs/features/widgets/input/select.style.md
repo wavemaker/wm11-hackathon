@@ -5,5 +5,5 @@ nav_exclude: true
 ---
 # {{page.title}}
 
-| class name  | Purpose |
-|.app-select|To style the outermost wrapper element of select widget.|
+| class name  | Type | Purpose |
+|.app-select| [View](../view.style.html) | To style the outermost wrapper element of select widget.|
