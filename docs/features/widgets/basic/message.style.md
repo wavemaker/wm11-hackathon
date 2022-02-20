@@ -5,50 +5,24 @@ nav_exclude: true
 ---
 # {{page.title}}
 
-| class name  | Purpose |
-|.app-message|To style the outermost wrapper element of the message widget.|
-|.app-message-text|To style the caption text of the message widget.|
-|.app-message-title|To style the title of message widget.|
-|.app-message-text-wrapper|To style the text wrapper element of message widget.|
-|.app-message-icon|To style the icon of message widget.|
-|.app-message-closebtn|To style the cloe button of message widget.|
-|.success-dark-message.app-message||
-|.success-dark-message.app-message-text||
-|.success-dark-message.app-message-icon .app-icon-text||
-|.success-dark-message.app-message-closebtn .app-button .app-button-icon .app-icon-text||
-|.error-dark-message.app-message||
-|.error-dark-message.app-message-text||
-|.error-dark-message.app-message-icon .app-icon-text||
-|.error-dark-message.app-message-closebtn .app-button .app-button-icon .app-icon-text||
-|.warning-dark-message.app-message||
-|.warning-dark-message.app-message-text||
-|.warning-dark-message.app-message-icon .app-icon-text||
-|.warning-dark-message.app-message-closebtn .app-button .app-button-icon .app-icon-text||
-|.info-dark-message.app-message||
-|.info-dark-message.app-message-text||
-|.info-dark-message.app-message-icon .app-icon-text||
-|.info-dark-message.app-message-closebtn .app-button .app-button-icon .app-icon-text||
-|.loading-dark-message.app-message||
-|.loading-dark-message.app-message-text||
-|.loading-dark-message.app-message-icon .app-icon-text||
-|.loading-dark-message.app-message-closebtn .app-button .app-button-icon .app-icon-text||
-|.success-light-message.app-message||
-|.success-light-message.app-message-text||
-|.success-light-message.app-message-icon .app-icon-text||
-|.success-light-message.app-message-closebtn .app-button .app-button-icon .app-icon-text||
-|.error-light-message.app-message||
-|.error-light-message.app-message-text||
-|.error-light-message.app-message-icon .app-icon-text||
-|.error-light-message.app-message-closebtn .app-button .app-button-icon .app-icon-text||
-|.warning-light-message.app-message||
-|.warning-light-message.app-message-text||
-|.warning-light-message.app-message-icon .app-icon-text||
-|.warning-light-message.app-message-closebtn .app-button .app-button-icon .app-icon-text||
-|.info-light-message.app-message||
-|.info-light-message.app-message-text||
-|.info-light-message.app-message-icon .app-icon-text||
-|.info-light-message.app-message-closebtn .app-button .app-button-icon .app-icon-text||
-|.loading-light-message.app-message||
-|.loading-light-message.app-message-text||
-|.loading-light-message.app-message-icon .app-icon-text||
-|.loading-light-message.app-message-closebtn .app-button .app-button-icon .app-icon-text||
+| class name  | Type | Purpose |
+|.app-message| [View](../view.style.html) | To style the outermost wrapper element of the message widget.|
+|.app-message-text| [Text](../text.style.html) | To style the caption text of the message widget.|
+|.app-message-title| [Text](../text.style.html) | To style the title of message widget.|
+|.app-message-text-wrapper|[View](../view.style.html) |To style the text wrapper element of message widget.|
+|.app-message-icon| [WM Icon](../basic/icon.style.html) | To style the icon of message widget.|
+|.app-message-closebtn|[WM Button](../basic/button.style.html) |To style the cloe button of message widget.|
+
+# Extra Message Styles
+
+| class name | Type | Purpose |
+|.success-dark-message|WM Message|To Style success message in dark mode.|
+|.error-dark-message|WM Message|To Style error message in dark mode.|
+|.warning-dark-message|WM Message|To Style warning message in dark mode.|
+|.info-dark-message|WM Message|To Style info message in dark mode.|
+|.loading-dark-message|WM Message|To Style loading message in dark mode.|
+|.success-light-message|WM Message|To Style success message in light mode.|
+|.error-light-message|WM Message|To Style error message in light mode.|
+|.warning-light-message|WM Message|To Style warning message in light mode.|
+|.info-light-message|WM Message|To Style info message in light mode.|
+|.loading-light-message|WM Message|To Style loading message in light mode.|

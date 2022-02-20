@@ -5,5 +5,5 @@ nav_exclude: true
 ---
 # {{page.title}}
 
-| class name  | Purpose |
-|.app-webview|To style the outermost wrapper element of webview component.|
+| class name  | Type | Purpose |
+|.app-webview| [View](../view.style.html) | To style the outermost wrapper element of webview component.|

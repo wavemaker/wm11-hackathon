@@ -5,6 +5,8 @@ nav_exclude: true
 ---
 # {{page.title}}
 
-| class name  | Purpose |
-|.app-picture|To style the outermost wrapper element of picture widget.|
-|.thumbnail-image.app-picture||
+| class name  | Type | Purpose |
+|.app-picture|[Image](../image.style.html) |To style the outermost wrapper element of picture widget.|
+
+| class name | Type | Purpose |
+|.thumbnail-image|WM Image| class to show image as thumbnail|

@@ -5,31 +5,32 @@ nav_exclude: true
 ---
 # {{page.title}}
 
-| class name  | Purpose |
-|.app-label|To style the outermost wrapper element of label widget.|
-|.app-label-text|To style the caption text of label widget.|
-|.app-label-asterisk|To style the asterisk symbol of label widget.|
-|.label-danger.app-label||
-|.label-danger.app-label-text||
-|.label-primary.app-label||
-|.label-primary.app-label-text||
-|.label-default.app-label||
-|.label-default.app-label-text||
-|.label-success.app-label||
-|.label-success.app-label-text||
-|.label-warning.app-label||
-|.label-warning.app-label-text||
-|.label-info.app-label||
-|.label-info.app-label-text||
-|.text-danger.app-label-text||
-|.text-primary.app-label-text||
-|.text-success.app-label-text||
-|.text-warning.app-label-text||
-|.text-info.app-label-text||
-|.h1.app-label-text||
-|.h2.app-label-text||
-|.h3.app-label-text||
-|.h4.app-label-text||
-|.h5.app-label-text||
-|.h6.app-label-text||
-|.text-muted.app-label-text||
+| class name  | Type | Purpose |
+|.app-label| [View](../view.style.html) |To style the outermost wrapper element of label widget.|
+|.app-label-text| [Text](../text.style.html) | To style the caption text of label widget.|
+|.app-label-asterisk| [Text](../text.style.html) | To style the asterisk symbol of label widget.|
+
+# Extra Label Styles
+
+| class name | Type | Purpose |
+|.label-default|WM Label|To style the default label.|
+|.label-primary|WM Label|To style the primary label.|
+|.label-secondary|WM Label|To style the secondary label.|
+|.label-warning|WM Label|To style the warning label.|
+|.label-danger|WM Label|To style the danger label.|
+|.label-info|WM Label|To style the info label.|
+|.label-danger|WM Label|To style the default label.|
+|.text-primary|WM Label|To style the primary label text.|
+|.text-secondary|WM Label|To style the secondary label text.|
+|.text-danger|WM Label|To style the danger label text.|
+|.text-warning|WM Label|To style the warning label text.|
+|.text-info|WM Label|To style the info label text.|
+|.text-default|WM Label|To style the default label text.|
+|.h1|WM Label|To style the heading h1 label.|
+|.h2|WM Label|To style the heading h2 label.|
+|.h3|WM Label|To style the heading h3 label.|
+|.h4|WM Label|To style the heading h4 label.|
+|.h5|WM Label|To style the heading h5 label.|
+|.h6|WM Label|To style the heading h6 label.|
+|.text-muted|WM Label|To show the label as muted.|
+

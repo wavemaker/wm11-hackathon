@@ -5,7 +5,7 @@ nav_exclude: true
 ---
 # {{page.title}}
 
-| class name  | Purpose |
-|.app-icon|To style the outermost wrapper element of icon widget.|
-|.app-icon-text|To style the caption text of icon widget.|
-|.app-icon-shape|To style the icon of icon widget.|
+| class name  | Type | Purpose |
+|.app-icon| [View](../view.style.html) |To style the outermost wrapper element of icon widget.|
+|.app-icon-text| [Text](../text.style.html) | To style the caption text of icon widget.|
+|.app-icon-shape| [Text](../text.style.html) |To style the icon of icon widget.|

@@ -5,5 +5,5 @@ nav_exclude: true
 ---
 # {{page.title}}
 
-| class name  | Purpose |
-|.app-page|To style the outermost wrapper element of page.|
+| class name  | Type | Purpose |
+|.app-page| [View](./view.style.html) |  To style the outermost wrapper element of page.|
