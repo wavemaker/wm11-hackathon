@@ -13,9 +13,6 @@ In reactnative app, styles are expressed as javascript object. Refer [https://re
 In WaveMaker, partial support is added to mention styles in CSS format. Let us take a button as an example. In button, there are 3 stylable units. They are 1) container, 2) text and 3) icon. For each of these stylable units, unique classnames is assigned. They are 1) app-button, 2) app-button-text and 3) app-button-icon. Using these classnames, styles can be mentioned in theme, app.css and page styles. In this way, every WaveMaker widget has several stylable units. In [Widgets page](../features/widgets.html), there is a link to style document across each widget. In studio, As we type in page styles, auto suggestions for classnames will be populated in the style editor.
 ![Styles Auto Suggestion](../../assets/styles_auto_suggestion.png)
 
-**NOTE:** 
-There is no style property inheritance support in React Native. Due to this, Views shown in web preview may differ when the app is opened in mobile. 
-
 
 For suppose, in sample application drag and drop a button. If you want customize the style of this particular button, then give a class name to the button (lets say custom-btn) in the properties panel. Here, you want to change the background-color of the button and color of the text inside button.
  - For changing background color, just using .custom-btn.app-button class will work.
@@ -44,7 +41,7 @@ For example, a container has a class “.custom-container”. If you need to cha
     background-color: ‘red’;
 }
 ```
-whereas in reactnative, you must target the button directly. Styles of the container will not get passed to the button. In this case, a class has to be mentioned on that button and styles have to specified to that class.
+whereas in reactnative, you must target the button directly. In this case, a class has to be mentioned on that button and styles have to specified to that class.
 ```
 .custom-container.app-container {
     background-color: red;
@@ -53,6 +50,8 @@ whereas in reactnative, you must target the button directly. Styles of the conta
     background-color: red;
 }
 ```
+
+4.  There is no style property inheritance support in React Native. Due to this, Views shown in web preview may differ when the app is opened in mobile. In the above example, styles of the container donot not get passed to the button.   
 
 All these CSS styles are converted to js object during code generation.
 
