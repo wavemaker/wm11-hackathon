@@ -10,18 +10,18 @@ Mobile app developers can preview their apps using Preview button. To see the co
 **Pre-requisites:**
 
 1. If you are using windows machine, Install [Git Bash](https://gitforwindows.org/) and use it as terminal window. 
-2. Make sure you have node 12 and npm 7 installed in your machine
+2. Make sure you have node 14 and npm 7 installed in your machine
 2. Install wm-reactnative-cli in your machine using below command
- ```npm install -g https://github.com/wavemaker/wm-reactnative-cli```
+ ```npm install -g @wavemaker/wm-reactnative-cli```
 3. Install Expo Go app on your mobile phone from [Playstore](https://play.google.com/store/apps/details?id=host.exp.exponent) or [App Store](https://apps.apple.com/us/app/expo-go/id982107779)
 4. Install React Dev Tools `npm i -g react-devtools@4.14.0`.
 
 **Debugging Procedure:**
 
 1. Open project and preview the application.
-2. copy the preview url. Ex: ```https://wm11.wavemakeronline.com/…../{Project_Name}```
+2. copy the preview url. Ex: ```https://www.wavemakeronline.com/…../{Project_Name}```
 3. Execute the following command in your machine terminal
-   ```wm-reactnative run expo ${APP_PREVIEW_URL}```
+   ```wm-reactnative run expo ${APP_PREVIEW_URL}```. You may need to enter your WaveMaker Studio credentials. In case, if you face any issues, try executing the command with ```--clean``` option.
 4. Once command gets executed successfully, open [http://localhost:19002/](http://localhost:19002/) in your chrome browser
 5. If  you have Android, open the Expo Go app and scan the QR code that appears at the left bottom of [http://localhost:19002/](http://localhost:19002/)  
 ![expo portal](../../assets/expo-portal-qr-code.png)
